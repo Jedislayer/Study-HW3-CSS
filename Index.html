@@ -2,83 +2,90 @@
 
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="Index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <title>HW3</title>
   </head>
 
   <body>
-    <div>
-      <table>
-        <tr>
-          <td>Name</td>
-          <td>Date</td>
+      <table class="main-table">
+        <tr class="border borderUp">
+          <td class="Bold">Name</td>
+          <td class="Bold">Date</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="border">
           <td>File.pdf</td>
           <td>3 mins ago</td>
           <td>...</td>
         </tr>
-        <tr>
+        <tr class="border">
           <td>File.pdf</td>
           <td>Yesterday</td>
           <td>...</td>
         </tr>
-        <tr>
+        <tr class="border borderDown">
+          <td>File.pdf</td>
+          <td>June 1st, 2019</td>
+          <td>...</td>
+        </tr>
+        <tr class="border empty-row">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="border borderUp">
+          <td class="Bold"><input type="checkbox" checked id="Name2" name="Name2" value="pickedFile">
+            <label for="Name2"> Name</label></td>
+          <td class="Bold">Date</td>
+          <td></td>
+        </tr>
+        <tr class="border">
+          <td><input type="checkbox" id="firstFile" name="File1" value="File.pdf">
+            <label for="File1"> File.pdf</label></td>
+          <td>3 mins ago</td>
+          <td>...</td>
+        </tr>
+        <tr class="border">
+          <td><input type="checkbox" checked id="secondFile" name="File2" value="File.pdf">
+            <label for="File2"> File.pdf</label></td>
+          <td>Yesterday</td>
+          <td>...</td>
+        </tr>
+        <tr class="border borderDown">
+          <td><input type="checkbox" id="thirdFile" name="File3" value="File.pdf">
+            <label for="File3"> File.pdf</label></td>
+          <td>June 1st, 2019</td>
+          <td>...</td>
+        </tr>
+        <tr class="border empty-row">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="border borderUp">
+          <td class="Bold">Name</td>
+          <td class="Bold">Date</td>
+          <td>
+            <input type="text" placeholder="Search">
+          </td>
+        </tr>
+        <tr class="border">
+          <td>File.pdf</td>
+          <td>3 mins ago</td>
+          <td>...</td>
+        </tr>
+        <tr class="border">
+          <td>File.pdf</td>
+          <td>Yesterday</td>
+          <td>...</td>
+        </tr>
+        <tr class="border borderDown">
           <td>File.pdf</td>
           <td>June 1st, 2019</td>
           <td>...</td>
         </tr>
       </table>
-    </div>
-    <div>
-      <table>
-        <tr>
-          <td>Name</td>
-          <td>Date</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>File.pdf</td>
-          <td>3 mins ago</td>
-          <td>...</td>
-        </tr>
-        <tr>
-          <td>File.pdf</td>
-          <td>Yesterday</td>
-          <td>...</td>
-        </tr>
-        <tr>
-          <td>File.pdf</td>
-          <td>June 1st, 2019</td>
-          <td>...</td>
-        </tr>
-      </table>
-    </div>
-    <div>
-      <table>
-        <tr>
-          <td>Name</td>
-          <td>Date</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>File.pdf</td>
-          <td>3 mins ago</td>
-          <td>...</td>
-        </tr>
-        <tr>
-          <td>File.pdf</td>
-          <td>Yesterday</td>
-          <td>...</td>
-        </tr>
-        <tr>
-          <td>File.pdf</td>
-          <td>June 1st, 2019</td>
-          <td>...</td>
-        </tr>
-      </table>
-    </div>
   </body> 
 </html>
