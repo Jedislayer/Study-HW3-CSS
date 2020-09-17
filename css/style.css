@@ -50,7 +50,9 @@ img {
 }
 
 .search-icon {
-  position: fixed;
+  position: relative;
+  left: 45px;
+  top: 8px;
   height: 30px;
 }
 
