@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(49, 48, 48);
+}
+
+.Bold {
+  font-weight: 900;
+}
+
+.main-table {
+  width: 60%;
+  margin: 200px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.border:not(.empty-row) {
+  box-shadow: 0 0 0 1px rgb(194, 193, 193);
+  border-style: hidden;
+}
+
+.borderUp {
+  border-radius: 8px 8px 0 0;
+}
+
+.borderDown {
+  border-radius: 0 0 8px 8px;
+}
+
+.main-table td {
+  padding: 12px 15px;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+}
+
+.grey-text {
+  color: grey;
+}
+
+img {
+  padding-right: 10px;
+}
+
+.searchbar {
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.search-icon {
+  position: fixed;
+  height: 30px;
+}
+
+.arrow-down {
+  width: 10px;
+  margin-left: 8px;
+}
+
+.three-dots {
+  width: 14px;
+}
