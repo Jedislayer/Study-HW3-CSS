@@ -10,12 +10,10 @@ body {
   width: 60%;
   margin: 200px;
   text-align: left;
-  border-collapse: collapse;
 }
 
 .border:not(.empty-row) {
   box-shadow: 0 0 0 1px rgb(194, 193, 193);
-  border-style: hidden;
 }
 
 .borderUp {
