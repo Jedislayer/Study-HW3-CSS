@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(49, 48, 48);
+  background-color:rgb(49, 48, 48);
+  color: whitesmoke;
 }
 
 .Bold {
@@ -45,6 +46,12 @@ img {
   height: 30px;
   text-align: center;
   font-size: 15px;
+}
+
+input[type=text] {
+  background-color: grey;
+  border-radius: 5px;
+  border: none;
 }
 
 .search-icon {
