@@ -31,7 +31,8 @@ body {
 
 .right {
   display: flex;
-  justify-content: right;
+  /*justify-content: right;*/
+  justify-content: flex-end;
 }
 
 .grey-text {
