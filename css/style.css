@@ -25,7 +25,8 @@ body {
   border-radius: 0 0 8px 8px;
 }
 
-.main-table th td {
+.main-table th,
+.main-table td {
   padding: 12px 15px;
 }
 
