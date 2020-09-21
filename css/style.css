@@ -25,13 +25,12 @@ body {
   border-radius: 0 0 8px 8px;
 }
 
-.main-table td {
+.main-table th td {
   padding: 12px 15px;
 }
 
 .right {
   display: flex;
-  /*justify-content: right;*/
   justify-content: flex-end;
 }
 
